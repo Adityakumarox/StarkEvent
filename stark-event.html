@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>STARK EVENT — Event Management & Experiences</title>
+<meta name="description" content="STARK EVENT delivers corporate events, exhibitions, conferences, product launches, promotions, weddings and entertainment experiences.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="grain"></div>
+<div id="cursor-dot"></div>
+
+<header id="siteHeader">
+  <div class="container nav-inner">
+    <a href="#top" class="logo">STARK EVENT</a>
+    <nav class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#gallery">Sectors</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#capabilities">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta"><a href="#contact" class="btn fill magnetic">Start a Project →</a></div>
+    <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#work">Work</a>
+  <a href="#gallery">Sectors</a>
+  <a href="#services">Services</a>
+  <a href="#about">About</a>
+  <a href="#capabilities">Process</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-media"><img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1800&auto=format&fit=crop" alt="Large-scale corporate event production"></div>
+  <div class="container hero-inner">
+    <div class="mono-label" data-r>STARK EVENT — EVENTS • EXPERIENCES • MANAGEMENT</div>
+    <h1 data-r data-r-d="1">
+      <span class="row">WE CREATE</span>
+      <span class="row">MOMENTS THAT</span>
+      <span class="row accent">STAY.</span>
+    </h1>
+    <div class="hero-foot" data-r data-r-d="2">
+      <p class="hero-sub">End-to-end event management, production and creative experiences delivered with precision from the first brief to the final applause.</p>
+      <div class="hero-ctas">
+        <a href="#work" class="btn line arrow magnetic">Explore Services <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 7.5h10M8 3.5l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a href="#contact" class="btn fill arrow magnetic">Plan Your Event <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 7.5h10M8 3.5l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE STATEMENT -->
+<section class="statement">
+  <div class="container">
+    <h2 data-r>BIG IDEAS.<br><span class="accent">SEAMLESSLY EXECUTED.</span></h2>
+    <p data-r data-r-d="1">We bring strategy, creativity, production and people together to create events that feel effortless, engaging and unmistakably yours.</p>
+  </div>
+</section>
+
+<!-- WHAT WE DO -->
+<section class="services-showcase" id="services">
+  <div class="container">
+    <div class="services-showcase-header" data-r>
+      <h2>Our <span>Solutions</span></h2>
+      <div class="services-rule"></div>
+    </div>
+    <div class="service-grid" id="serviceGrid"></div>
+  </div>
+</section>
+
+<!-- FEATURED WORK -->
+<section class="work" id="work">
+  <div class="container">
+    <div class="services-head">
+      <h2 data-r>EVENTS<br>THAT DELIVER.</h2>
+      <p data-r data-r-d="1">Thoughtful planning, polished production and experienced teams for every kind of occasion.</p>
+    </div>
+    <div class="work-grid" id="workGrid"></div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery-section" id="gallery">
+  <div class="container">
+    <div class="services-head">
+      <h2 data-r>OUR<br>EXPERIENCE.</h2>
+      <p data-r data-r-d="1">A growing archive of corporate gatherings, brand experiences, celebrations and live productions.</p>
+    </div>
+    <div class="gal-filters mono-label" id="galFilters" data-r data-r-d="2" style="margin-bottom:44px"></div>
+    <div class="gal-grid" id="galGrid"></div>
+  </div>
+</section>
+
+<div class="gal-lightbox" id="galLightbox">
+  <button class="gal-lightbox-close" id="galLightboxClose" aria-label="Close">CLOSE ✕</button>
+  <figure>
+    <img src="" alt="" id="galLightboxImg">
+    <figcaption id="galLightboxCap"></figcaption>
+  </figure>
+</div>
+
+<!-- CAPABILITIES -->
+<section class="capabilities" id="capabilities">
+  <div class="container cap-layout">
+    <div class="cap-sticky" data-r>
+      <div class="mono-label">Our Process</div>
+      <h2 style="margin-top:22px">THE FULL<br>EVENT JOURNEY.</h2>
+      <p>From the first conversation to the final wrap, every stage is managed by one accountable team with a clear eye on detail.</p>
+    </div>
+    <div class="cap-list" id="capList"></div>
+  </div>
+</section>
+
+<!-- CREDIBILITY -->
+<section class="credibility">
+  <div class="container">
+    <h2 data-r>BUILT ON<br>EXPERIENCE.<br><span class="accent">MADE FOR THE MOMENT.</span></h2>
+    <p data-r data-r-d="1">Our strength is bringing calm, creativity and control to the moments that matter most to your brand, business and audience.</p>
+  </div>
+</section>
+
+
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-media" data-r><img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200&auto=format&fit=crop" alt="STARK EVENT team managing a live event"></div>
+    <div class="about-copy">
+      <div class="mono-label" data-r>About Stark</div>
+      <h2 style="margin-top:22px" data-r data-r-d="1">IDEAS INTO<br><span class="accent">UNFORGETTABLE EXPERIENCES.</span></h2>
+      <p data-r data-r-d="2">STARK EVENT is an event management and production company creating meaningful experiences for brands, businesses and families. We bring together concept development, planning, creative design, logistics, hospitality and on-ground execution under one team.</p>
+      <p data-r data-r-d="3">Our approach is practical, collaborative and detail-focused, so every event feels considered from the opening moment to the final guest departure.</p>
+      <div style="margin-top:34px" data-r data-r-d="4"><a href="#contact" class="btn line arrow magnetic">Meet Stark <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 7.5h10M8 3.5l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+    </div>
+  </div>
+</section>
+
+<!-- CASE STUDY -->
+<section class="case">
+  <div class="container">
+    <div class="services-head">
+      <h2 data-r>ONE BRIEF,<br>FULL DELIVERY.</h2>
+    </div>
+    <div class="case-grid" data-r>
+      <div class="case-media"><img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=1200&auto=format&fit=crop" alt="Corporate event case study"></div>
+      <div class="case-body">
+        <div class="mono-label">Featured Event</div>
+        <h3 style="margin-top:20px">FROM IDEA<br>TO APPLAUSE.</h3>
+        <div class="case-facts">
+          <div><span>Client</span><b>National Retail Group</b></div>
+          <div><span>Event</span><b>Annual Leadership Summit</b></div>
+          <div><span>Location</span><b>New Delhi</b></div>
+          <div><span>Audience</span><b>800+ delegates</b></div>
+          <div><span>Scope</span><b>Concept to on-ground execution</b></div>
+          <div><span>Duration</span><b>3-day program</b></div>
+        </div>
+        <p class="desc">A three-day leadership summit brought together senior teams, multiple vendors and a demanding production schedule. We shaped the experience, coordinated every moving part and delivered a confident program from first arrival to final close.</p>
+        <a href="#contact" class="btn line arrow magnetic">View Event Plan <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 7.5h10M8 3.5l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final">
+  <div class="container">
+    <div class="mono-label center" data-r>Let's Talk</div>
+    <h2 data-r data-r-d="1">HAVE AN EVENT<br>IN MIND?<br><span class="accent">LET'S MAKE IT STARK.</span></h2>
+    <div class="final-actions" data-r data-r-d="2">
+      <a href="#contact" class="btn fill arrow magnetic">Start A Project <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M2 7.5h10M8 3.5l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <a href="#contact" class="btn line magnetic">Talk to Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <div class="mono-label" data-r>Enquiry</div>
+      <h2 style="margin-top:20px" data-r data-r-d="1">BRING YOUR<br>IDEA TO LIFE.</h2>
+      <p data-r data-r-d="2">Tell us what you are planning and our team will help shape the right event strategy, production approach and execution plan.</p>
+      <div data-r data-r-d="3">
+        <div class="contact-detail"><span>Email</span><b>hello@starkevent.com</b></div>
+        <div class="contact-detail"><span>Phone</span><b>+91 98765 43210</b></div>
+        <div class="contact-detail"><span>Location</span><b>New Delhi · Mumbai · Nationwide</b></div>
+      </div>
+    </div>
+    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" data-r data-r-d="1">
+      <input type="hidden" name="access_key" value="0c6474c0-aea8-4ac6-8481-8d40abc9ff9c">
+      <div class="grid2">
+        <div class="field"><label for="cfName">Name</label><input id="cfName" name="name" type="text" required></div>
+        <div class="field"><label for="cfCompany">Company</label><input id="cfCompany" name="company" type="text"></div>
+      </div>
+      <div class="grid2">
+        <div class="field"><label for="cfEmail">Email</label><input id="cfEmail" name="email" type="email" required></div>
+        <div class="field"><label for="cfPhone">Phone</label><input id="cfPhone" name="phone" type="tel"></div>
+      </div>
+      <div class="grid2">
+        <div class="field"><label for="cfType">Event type</label>
+          <select id="cfType" name="event_type">
+            <option>Corporate Event</option><option>Exhibition</option><option>Conference</option>
+            <option>Product Launch</option><option>Promotion & BTL</option><option>Wedding / Social</option><option>Artist Management</option><option>Other</option>
+          </select>
+        </div>
+        <div class="field"><label for="cfDate">Required date</label><input id="cfDate" name="event_date" type="date"></div>
+      </div>
+      <div class="grid2">
+        <div class="field"><label for="cfGuests">Expected guests</label><input id="cfGuests" name="expected_guests" type="text" placeholder="e.g. 300 guests"></div>
+        <div class="field"><label for="cfLoc">Location</label><input id="cfLoc" name="location" type="text"></div>
+      </div>
+      <div class="field"><label for="cfMsg">Tell us about your event</label><textarea id="cfMsg" name="message" required></textarea></div>
+      <button type="submit" class="btn fill magnetic" style="margin-top:30px;width:100%;justify-content:center">Send Enquiry →</button>
+      <p id="formNote" style="font-family:var(--mono);font-size:11.5px;color:var(--dim);margin-top:16px;text-align:center"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <h3>STARK EVENT</h3>
+        <p>Events. Experiences. Executed.</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col">
+          <h4>Navigate</h4>
+          <a href="#work">Work</a><a href="#services">Services</a><a href="#about">About</a><a href="#capabilities">Process</a><a href="#contact">Contact</a>
+        </div>
+        <div class="foot-col">
+          <h4>Social</h4>
+          <a href="#">Instagram</a><a href="#">LinkedIn</a>
+        </div>
+        <div class="foot-col">
+          <h4>Contact</h4>
+          <a href="mailto:hello@starkevent.com">hello@starkevent.com</a><a href="tel:+919876543210">+91 98765 43210</a><a href="#">New Delhi · Mumbai</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 STARK EVENT. All rights reserved.</span>
+      <span>Creating moments that stay.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/919876543210?text=Hello%20STARK%20EVENT%2C%20I%27d%20like%20to%20discuss%20an%20event." target="_blank" rel="noopener noreferrer" aria-label="Chat with STARK EVENT on WhatsApp" title="Chat with us on WhatsApp">
+  <span class="whatsapp-float-label">Chat with us</span>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3.5 20l1.2-4.3A8.5 8.5 0 1 1 20.5 11.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.4 8.3c.2-.3.4-.3.7-.3h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.6 1.1 1.5 2 2.7 2.6l.6-.5c.2-.2.4-.2.6-.1l1.6.7c.3.1.4.3.4.5v.5c0 .3-.1.5-.4.7-.4.3-1 .4-1.5.2-2.2-.7-4.1-2.1-5.5-4.1-.4-.6-.8-1.3-1-2-.2-.5-.1-1.1.2-1.5Z" fill="currentColor"/></svg>
+</a>
+<a class="email-float" href="mailto:hello@starkevent.com?subject=Event%20Enquiry" aria-label="Email STARK EVENT" title="Email us">
+  <span class="email-float-label">Email us</span>
+  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="1.5" stroke="currentColor" stroke-width="1.8"/><path d="m4.5 7 7.5 6 7.5-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</a>
+
+<script src="photos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
